@@ -17,12 +17,16 @@ The plugin does not create any key bindings automatically, it's up to you to add
 ### open_related_rails_view
 - Opens the related view from a controller. You need to put the cursor inside the controller action for it to work.
 
+### open_related_rails_partial
+- Opens the related partial from a view. You need to put the cursor inside the partial name for it to work.
+
 ## Bindings
 Here's how you can bind them to keys (Go to `Preferences > Key Bindings - User`)
 ```json
 { "keys": ["super+1"], "command": "open_related_rails_model" },
 { "keys": ["super+2"], "command": "open_related_rails_controller" },
 { "keys": ["super+3"], "command": "open_related_rails_view" },
+{ "keys": ["super+4"], "command": "open_related_rails_partial" },
 ```
 
 ## How is it different from [Rails Related Files](https://github.com/luqman/SublimeText2RailsRelatedFiles) and other similar plugins?
